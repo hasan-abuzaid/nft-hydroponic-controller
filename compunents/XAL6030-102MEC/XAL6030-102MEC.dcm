@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XAL6030-102MEC
+D Fixed Inductors 1uH Shld 20% 18A 6.18mOhms AECQ2
+K
+F https://www.coilcraft.com/getmedia/ea51f14b-7f32-4dc6-8dfe-d4b70549040f/xal60xx.pdf
+$ENDCMP
+#
+#End Doc Library

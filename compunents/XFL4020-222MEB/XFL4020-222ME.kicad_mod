@@ -1,0 +1,182 @@
+(footprint "XFL4020-222ME"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "XFL4020-222ME")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -0.1 -2.85 0)
+		(layer "F.SilkS")
+		(uuid "5ed8a24e-abe3-4156-b021-178170267236")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XFL4020-222ME"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "791b2345-1bb9-4a20-9a24-085059afcb0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be187ae5-0d43-4195-b52a-df42252bc0a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdd3b563-bdbd-4000-85ce-31319df91b83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c15b56b-285a-4fa6-9aa9-b9d93f9b5050")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ec4f186-8e33-4b8e-bce6-2580346a4a79")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1190222a-06e3-49d1-83d7-2c4146f13dfe")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e67b0056-9030-44da-9fd8-2968e0a01172")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f0ac560-dca5-487b-8649-90e7d3fa3e10")
+	)
+	(fp_line
+		(start -2.002 -2.006)
+		(end 1.998 -2.006)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a24141e0-ad5f-4157-9e12-8d1d4dc9264a")
+	)
+	(fp_line
+		(start -2.002 1.994)
+		(end -2.002 -2.006)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "813e184d-6c2e-443e-9b32-bcac403230d4")
+	)
+	(fp_line
+		(start 1.998 -2.006)
+		(end 1.998 1.994)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "240fe58a-1782-42f7-8b4b-21e66bb47f65")
+	)
+	(fp_line
+		(start 1.998 1.994)
+		(end -2.002 1.994)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8fd583b-8db9-4cbd-a207-73068f46e039")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fe120676-d7f1-4a52-9d04-99a9977b377c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "32433036-823c-4ec7-b909-10fd64a26f55")
+	)
+	(pad "2" smd rect
+		(at 1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c8c2623a-b8f7-4dac-b2a0-f9d7f214cbba")
+	)
+	(model "XFL4020-222MEB.stp"
+		(offset
+			(xyz -0.3099999977 0 1.080000027)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,148 @@
+(footprint "18650 Battery Connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0508 -6.5292 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0e2a21a9-89f9-4076-b4c7-b994982193f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "18650 Battery Connector"
+		(at 0.0508 -5.0292 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "abeb9de5-77a2-43df-b3cd-7193f39a8ad1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "18650 Battery Connector"
+		(at 0.0508 -6.0292 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b6f0975-63c2-43cf-8ae1-4d03d52ec7a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.0508 -6.0292 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f6e26ef-c469-4ba1-92cd-b9d9cb3e764c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.0508 -6.0292 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b039917c-7ffb-4e74-81c5-27ad435e8945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -46.62 -10.5)
+		(end 46.62 10.5)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7701bee8-e974-4030-9990-5f2d6e8f665a")
+	)
+	(fp_circle
+		(center 35.84 8)
+		(end 37.09 8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "e4c1f058-7428-4462-a21f-905df2d09dd1")
+	)
+	(fp_text user "-"
+		(at -53.975 1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "262e45ea-0c2f-4007-a76d-08a1ae092576")
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.75)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 47.625 1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f39a7c80-d428-435f-90eb-6a3527e18791")
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.75)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0508 -3.5292 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bcc797cd-b918-4654-bb3e-f1dc7c9e6f43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 39.63 0)
+		(size 7.77 7.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1360544218)
+		(thermal_bridge_angle 45)
+		(uuid "b184b911-0f0c-41e7-bd95-6bcc1519d116")
+	)
+	(pad "2" smd roundrect
+		(at -39.63 0)
+		(size 7.77 7.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1360544218)
+		(thermal_bridge_angle 45)
+		(uuid "af8c6dc1-3b4f-423e-a601-5bac92c286bb")
+	)
+)

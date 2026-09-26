@@ -1,0 +1,29 @@
+# KiCad lock files (CRITICAL)
+*.lck
+
+# KiCad temporary and backup files
+*-bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*.bak
+
+# KiCad local user settings
+*.kicad_prl
+*.kicad_user
+*.kicad_wks
+fp-info-cache
+
+# Local history and nested repos
+.history/
+
+# Backups and Manufacturing Outputs
+_restore_backup_*/
+production/
+
+# Stray files
+untitled.kicad_sch

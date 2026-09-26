@@ -1,0 +1,184 @@
+** Drc report for the NFT.kicad_pcb **
+** Created on 2026-08-09T13:43:35 **
+** Report includes: Errors, Warnings **
+
+** Found 34 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 11.81 mils; actual 9.84 mils)
+    Rule: board setup constraints edge; error
+    @(8640.47 mils, 5653.60 mils): Segment of DC1 on Edge.Cuts
+    @(8479.84 mils, 5596.52 mils): PTH pad 4 [+12v] of DC1
+[invalid_outline]: Board has malformed outline (not a closed shape)
+    Local override; error
+    @(8640.47 mils, 5653.60 mils): Segment of DC1 on Edge.Cuts
+    @(3578.27 mils, 2266.30 mils): Rectangle on Edge.Cuts
+[invalid_outline]: Board has malformed outline (not a closed shape) (gap 409.45 mils)
+    Local override; error
+    @(8221.18 mils, 5653.60 mils): Segment of DC1 on Edge.Cuts
+    @(8640.47 mils, 5653.60 mils): Segment of DC1 on Edge.Cuts
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(8533.46 mils, 3759.84 mils): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(8464.57 mils, 4990.16 mils): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(8513.78 mils, 4202.76 mils): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(5601.42 mils, 2786.46 mils): Via [IO17] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(5431.10 mils, 3001.42 mils): Via [C-Q2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(6599.92 mils, 4789.92 mils): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(7328.27 mils, 4681.65 mils): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(4523.15 mils, 4839.13 mils): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(3804.65 mils, 4839.13 mils): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(8105.83 mils, 4927.72 mils): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(5930.63 mils, 4661.97 mils): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(5211.10 mils, 4761.42 mils): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(8056.61 mils, 2368.66 mils): Via [USB_C_D+] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(5576.30 mils, 3435.04 mils): Via [USB_C_D+] on F.Cu - B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3578.27 mils, 2266.30 mils): Rectangle on Edge.Cuts
+    @(8430.63 mils, 6171.26 mils): Reference field of DC1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8640.47 mils, 5653.60 mils): Segment of DC1 on Edge.Cuts
+    @(8638.11 mils, 6131.95 mils): Segment of DC1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8640.47 mils, 5653.60 mils): Segment of DC1 on Edge.Cuts
+    @(8638.11 mils, 5572.89 mils): Segment of DC1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(8640.47 mils, 5653.60 mils): Segment of DC1 on Edge.Cuts
+    @(8232.60 mils, 6131.95 mils): Segment of DC1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3578.27 mils, 2266.30 mils): Rectangle on Edge.Cuts
+    @(5649.61 mils, 2026.77 mils): Segment of U8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3578.27 mils, 2266.30 mils): Rectangle on Edge.Cuts
+    @(6359.06 mils, 2294.88 mils): Segment of U8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3578.27 mils, 2266.30 mils): Rectangle on Edge.Cuts
+    @(5649.61 mils, 2264.17 mils): Segment of U8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3578.27 mils, 2266.30 mils): Rectangle on Edge.Cuts
+    @(6211.42 mils, 2264.17 mils): Segment of U8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3578.27 mils, 2266.30 mils): Rectangle on Edge.Cuts
+    @(6291.34 mils, 2264.17 mils): Segment of U8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4544.33 mils, 4702.68 mils): Segment of K5 on F.Silkscreen
+    @(4525.43 mils, 4781.42 mils): Reference field of K4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(5909.21 mils, 4762.68 mils): Reference field of K6
+    @(5924.70 mils, 4704.15 mils): Segment of K7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(5909.21 mils, 4762.68 mils): Reference field of K6
+    @(5908.96 mils, 4688.41 mils): Segment of K7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(6727.87 mils, 5490.71 mils): Circle of SW8 on F.Silkscreen
+    @(6624.70 mils, 5487.93 mils): Segment of K3 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(6608.96 mils, 4708.41 mils): Segment of K3 on F.Silkscreen
+    @(6590.06 mils, 4767.15 mils): Reference field of K7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5122.05 mils, 3057.58 mils): Reference field of R35
+    @(5108.27 mils, 3090.55 mils): Pad 2 [C-Q1] of C14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5122.05 mils, 3057.58 mils): Reference field of R35
+    @(5108.27 mils, 3001.97 mils): Pad 2 [C-Q1] of R38 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4560.08 mils, 5482.20 mils): Segment of K5 on F.Silkscreen
+    @(4870.98 mils, 5536.97 mils): Pad 1 [+12v] of SW5 on F.Cu
+
+** Found 11 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5651.10 mils, 2319.45 mils): Track [GND] on F.Cu, length 12.53 mils
+    @(5889.76 mils, 2570.87 mils): Pad 41 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5889.76 mils, 2570.87 mils): Pad 41 [GND] of U8 on F.Cu
+    @(5944.88 mils, 2570.87 mils): Pad 41 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5889.76 mils, 2625.98 mils): Pad 41 [GND] of U8 on F.Cu
+    @(5944.88 mils, 2625.98 mils): Pad 41 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5889.76 mils, 2681.10 mils): Pad 41 [GND] of U8 on F.Cu
+    @(5944.88 mils, 2681.10 mils): Pad 41 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5944.88 mils, 2625.98 mils): Pad 41 [GND] of U8 on F.Cu
+    @(6000.00 mils, 2625.98 mils): Pad 41 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5944.88 mils, 2625.98 mils): Pad 41 [GND] of U8 on F.Cu
+    @(5944.88 mils, 2570.87 mils): Pad 41 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5944.88 mils, 2681.10 mils): Pad 41 [GND] of U8 on F.Cu
+    @(5944.88 mils, 2625.98 mils): Pad 41 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(6000.00 mils, 2625.98 mils): Pad 41 [GND] of U8 on F.Cu
+    @(6000.00 mils, 2570.87 mils): Pad 41 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(6000.00 mils, 2625.98 mils): Pad 41 [GND] of U8 on F.Cu
+    @(6000.00 mils, 2681.10 mils): Pad 41 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5576.30 mils, 3435.04 mils): Via [USB_C_D+] on F.Cu - B.Cu
+    @(8013.31 mils, 2637.56 mils): Track [USB_C_D+] on F.Cu, length 23.43 mils
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4706.22 mils, 3045.83 mils): Track [IO42/SCL] on F.Cu, length 182.34 mils
+    @(6348.43 mils, 2572.05 mils): Track [IO42/SCL] on F.Cu, length 181.64 mils
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
