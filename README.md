@@ -65,6 +65,7 @@ The ESP reports readings, Home Assistant decides how much A/B nutrient or pH-dow
 ├── Custom_JLCPCB_Parts/      Custom parts library
 ├── compunents/               Additional vendor symbols/footprints
 ├── fp-lib-table, sym-lib-table   Project-relative library tables
+├── firmware/esphome/         ESPHome config + secrets template
 └── docs/images/              Photos and renders
 ```
 
@@ -123,13 +124,15 @@ ADS1115 (I²C address `0x48`): pH → `AIN0`, EC → `AIN3`.
 
 ## Firmware
 
-The board runs **ESPHome** and appears in Home Assistant automatically. An example configuration is in [`firmware/nutrient-controller.yaml`](firmware/nutrient-controller.yaml): sensors, relay switches, calibration constants and the dosing logic.
+The board runs **ESPHome** and reports to Home Assistant over **MQTT** (with MQTT discovery, so entities appear automatically). The config is in [`firmware/esphome/nutrient-controller.yaml`](firmware/esphome/nutrient-controller.yaml).
 
-Flashing for the first time:
+> This is the configuration used during development. Check the pin assignments against the [pin mapping](#pin-mapping) above before flashing it to the v1.1 board.
 
-1. Plug the board into your computer via USB-C (no need to press BOOT — auto-reset is on board).
-2. In Home Assistant → ESPHome Builder, create a new device or paste the example config.
-3. Choose **Install → Plug into this computer**.
+Setup:
+
+1. Copy `firmware/esphome/secrets.yaml.example` to `secrets.yaml` and fill in your Wi-Fi, MQTT broker and passwords.
+2. Plug the board into your computer via USB-C (no need to press BOOT, auto-reset is on board).
+3. In Home Assistant → ESPHome Builder, create a device, paste the config, and choose **Install → Plug into this computer**.
 4. After the first flash, updates happen over Wi-Fi.
 
 ---
