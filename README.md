@@ -110,8 +110,8 @@ Each channel's terminal block is **Volt IN / Leg 1 / Leg 2-GND**.
 | Relay 2 | `GPIO40` |
 | Relay 3 | `GPIO14` |
 | Relay 4 | `GPIO13` |
-| Relay 5 | `GPIO35` ⚠️ see Known issues |
-| Relay 6 | `GPIO36` ⚠️ see Known issues |
+| Relay 5 | `GPIO35` |
+| Relay 6 | `GPIO36` |
 | I²C SDA (ADS1115, BME280, FRAM) | `GPIO21` |
 | I²C SCL | `GPIO42` |
 | Water temperature | `GPIO12` |
