@@ -27,3 +27,4 @@ production/
 
 # Stray files
 untitled.kicad_sch
+secrets.yaml
